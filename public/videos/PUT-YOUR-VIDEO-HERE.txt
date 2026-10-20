@@ -1,0 +1,8 @@
+PUT YOUR OWN HERO VIDEOS IN THIS FOLDER:
+
+1. hero.mp4        -> desktop video, 1080p, 10-20 seconds, under 6 MB
+2. hero-mobile.mp4 -> mobile video, 720p, 10-20 seconds, under 2.5 MB
+
+Use your own real event/decoration recording (wedding stage, lights, setup).
+Same style as premium event sites: slow, beautiful, no shaky camera.
+Compress free with HandBrake before uploading — that is what keeps it FAST.
