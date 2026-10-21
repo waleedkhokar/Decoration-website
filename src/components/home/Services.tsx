@@ -10,8 +10,9 @@ export default function Services() {
                 <em>Decoration</em>
               </h2>
             </div>
-            <p className="lead reveal">One call, one team, one beautiful event. Tell us your date — we do the rest.</p>
-          </div>
+            {/* <p className="lead reveal">One call, one team, one beautiful event. Tell us your date — we do the rest.</p>
+          </div> */}
+           </div>
           <div className="svc-list">
             <article className="svc reveal">
               <button className="svc-head" type="button" data-svc-toggle={true} aria-expanded="false">

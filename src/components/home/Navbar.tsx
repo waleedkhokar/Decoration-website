@@ -8,7 +8,7 @@ export default function Navbar() {
                 Hasnain
                 <i>Decoration</i>
               </span>
-              <span className="b2">Events · Weddings · Lighting</span>
+              {/* <span className="b2">Events · Weddings · Lighting</span> */}
             </a>
             <div className="nav-right">
               <nav className="nav-links" aria-label="Main">

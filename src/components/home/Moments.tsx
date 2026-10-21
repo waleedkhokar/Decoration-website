@@ -29,14 +29,28 @@ export default function Moments() {
           </div>
           {/* Moments are rendered from the MOMENTS list in the script below.
                To add more later: just add one more line to that list. */}
-          <div className="mom-tabs reveal" role="tablist" aria-label="Filter moments by event type">
+          {/* <div className="mom-tabs reveal" role="tablist" aria-label="Filter moments by event type">
             <button className="mom-tab active" type="button" role="tab" aria-selected="true" data-filter="all">All</button>
             <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="weddings">Weddings</button>
             <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="mehndi">Mehndi</button>
             <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="corporate">Corporate</button>
             <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="birthdays">Birthdays</button>
             <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="milad">Milad</button>
-          </div>
+          </div> */}
+          <div className="mom-tabs reveal" role="tablist" aria-label="Filter moments by event type">
+  <button className="mom-tab active" type="button" role="tab" aria-selected="true" data-filter="all">All</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="stage">Stage</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="weddings">Weddings</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="lighting">Lighting</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="bridal">Bridal Room</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="birthday">Birthdays</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="milad">Milad</button>
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="others">Others</button>
+
+  <button className="mom-tab" type="button" role="tab" aria-selected="false" data-filter="videos">Videos</button>
+
+</div>
+
           <div className="moments-grid" id="momentsGrid" />
         </div>
       </section>
